@@ -1,0 +1,27 @@
+{
+  "name": "personal-ov-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tailwaze/Personal-OV-Vue.git"
+  },
+  "author": "daneric",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tailwaze/Personal-OV-Vue/issues"
+  },
+  "homepage": "https://github.com/Tailwaze/Personal-OV-Vue#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  }
+}
